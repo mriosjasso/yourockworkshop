@@ -1,0 +1,18 @@
+sudo:  required
+dist: trusty
+language: node_js
+node_js:
+- 6.9.5
+script:
+- sleep 3
+deploy:
+  provider: bluemixcloudfoundry
+  skip_cleanup: true
+  manifest: manifest.yml
+  username: $CF_ID
+  password: $CF_PWD
+  organization: $CF_ORG
+  api: $CF_TARGET
+  space: $CF_SPACE
+  on:
+    branch: master
