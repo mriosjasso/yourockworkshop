@@ -4,7 +4,7 @@
   "description": "Workshop of DevOps for Nodejs Interactive NA 2017",
   "repository": {
     "type": "git",
-    "url": "https://github.ibm.com/mriosjasso/cognitive-provisioning-portal.git"
+    "url": "https://github.ibm.com/mriosjasso/yourockworkshop.git"
   },
   "scripts": {
     "build": "webpack  --progress",
